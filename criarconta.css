@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(7, 7, 7, 0.856);
+}
+
+.top-bg {
+    height: 20vh;
+    border-radius: 0 0 30px 30px;
+}
+
+.bottom-bg {
+    background-color: white;
+    height: 80vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.centered-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.index-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    font-weight: bold;
+    height: 10vh;
+}
+
+.button-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bg-custom {
+    background-color: rgb(148, 142, 168);
+}
+
+/* Altere a cor do marcador de posição para o campo "nome" */
+#nome::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+/* Altere a cor do marcador de posição para o campo "senha" */
+#senha::placeholder {
+    color: black;
+}
+#dataNascimento::placeholder {
+    color: black;
+}
+#email::placeholder {
+    color: black;
+}
+#confirmarSenha::placeholder {
+    color: black;
+}
+.rounded-input {
+    border-radius: 20px; /* Raio de arredondamento desejado */
+    padding: 5px; /* Espaçamento interno para melhorar a aparência */
+}
